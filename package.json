@@ -1,0 +1,36 @@
+{
+  "name": "medical-billing-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --build --force"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.5",
+    "vue-router": "^4.5.0",
+    "pinia": "^2.3.0",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.4",
+    "firebase": "^11.1.0",
+    "vuetify": "^3.7.5",
+    "@mdi/font": "^7.4.47"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithImran786/Age-Calculator.git"
+  },
+  "keywords": ["vue", "firebase", "medical", "billing", "scheduling"],
+  "author": "",
+  "license": "ISC",
+  "description": "Medical billing and scheduling web application built with Vue.js and Firebase"
+}
